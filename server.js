@@ -10,3 +10,5 @@ app.get('/status', (req, res) => {
 app.get('/profil', (req, res) => {
  res.json({ mataKuliah: 'Komputasi Awan', topik: 'Serverless Azure' });
 });
+
+app.listen(port, () => console.log(`Server berjalan pada port ${port}`));
